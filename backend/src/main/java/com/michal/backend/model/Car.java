@@ -10,6 +10,7 @@ import javax.persistence.Id;
 public class Car {
 
     private Long year;
+    
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

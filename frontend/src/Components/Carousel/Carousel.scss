@@ -1,0 +1,67 @@
+@use "../../styles/_variables.scss"as *;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.carousel {
+    width: 70%;
+    margin: 10rem auto;
+}
+
+.slide img {
+
+    border-radius: 10px;
+    width: 100%;
+    margin: 2px auto;
+}
+
+
+.slide {
+    transform: scale(0.2);
+    transition: transform 300ms;
+    opacity: 0.5;
+}
+
+.activeSlide {
+    margin: 12px;
+    transform: scale(1.1);
+    opacity: 1;
+    max-width: 100%;
+
+    & :hover {
+        border: 2px solid $primary-color;
+    }
+}
+
+.arrow {
+
+
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.arrow svg {
+    transform: scale(2);
+    border-radius: 100px;
+    padding: 3px;
+    background-color: $color-black;
+    transition: color 300ms;
+    color: rgb(232, 232, 241);
+
+}
+
+.arrow svg:hover {
+    color: pink;
+}
+
+.next {
+    right: 0%;
+    top: 50%;
+
+}
+
+.prev {
+    left: 0%;
+    top: 50%;
+}
