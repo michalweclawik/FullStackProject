@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=350px height=200px src="frontend\src\screenshots\fullstack1.PNG" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Car base web aplication </h3>
@@ -14,24 +14,20 @@
 
 <p align="center"> Final full stack project on the end of 12 weeks bootcamp with _nology
 
-    <br> 
+  
 </p>
 
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [Screenshots ](#📸-screenshots)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+
 
 ## 🧐 About <a name = "about"></a>
 
-The aim of this project was to make full stack aplication based on knowledge gained throught course, 
+The aim of this project was to make full stack aplication based on knowledge gained throught course with _nology, 
  using the following tech stack.
 
 - React frontend
@@ -39,7 +35,7 @@ The aim of this project was to make full stack aplication based on knowledge gai
 - MySQL database
 
 
-All cars data is fetch from API and with REACT slider carousel being display in home page. Once user click on car`s card this will fetch the desired data from API and display a window with more information about car.
+All car data is fetch from API and with REACT slider carousel being display in home page. Once user click on car`s card this will fetch the desired data from API and display a window with more information about car.
 
 User Can also add a new Car do the data base or update already existing one.
 
@@ -49,10 +45,20 @@ Aplication is fully resposive.
 
 ## 🎈 Usage <a name="usage"></a>
 
-- Type in search box desired car model 
-- To add car use link in top of the page
+- Type in search box desired car`s model 
+- To add new car use link in top of the page
 - To find more information about car press car`s card
 - To go back to main page press HOME
+
+
+
+## 📸 Screenshots <a name = "screenshots"></a>
+
+<div>
+<img width=450px height=350px src="frontend\src\screenshots\fullstack1.PNG" alt="Screenshots">
+<img width=350px height=350px src="frontend\src\screenshots\fullstack2.PNG" alt="Screenshots2">
+<img width=350px height=350px src="frontend\src\screenshots\fullstack3.PNG" alt="Screenshots2">
+</div>
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
